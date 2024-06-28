@@ -5,6 +5,7 @@ def list_vpc_dependents(region_name):
 
     vpcs = ec2_client.describe_vpcs()['Vpcs']
     print("describe vpc dependents")
+    print("pr testing ")
     for vpc in vpcs:
         vpc_id = vpc['VpcId']
         print(f"VPC ID: {vpc_id}")
