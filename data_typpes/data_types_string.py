@@ -22,3 +22,11 @@ print(str1.find("world"))
 
 new_str = str1.replace("world", "Python")
 print(new_str)
+
+fruit = ["apple", "banana", "cherry"]
+print("fruit list", fruit)
+str_fruit = " ".join(fruit)
+print(str_fruit)
+txt = "  I am a Python programmer    "
+print(txt)
+print(txt.strip())
